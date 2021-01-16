@@ -1,0 +1,170 @@
+*{
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-family: "Ubuntu";
+  outline: none;
+  background: none;
+  box-sizing: border-box;
+}
+
+body{
+  width: 97.8%;
+}
+
+a{
+  text-decoration: none;
+}
+
+p a{
+  color: black;
+  font-size: 140%;
+}
+
+.SignIn{
+  font-size: 170%;
+  float: left;
+}
+
+.header{
+height: 50px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-bottom: 1px solid black;
+position: sticky;
+width: 100%;
+top: 0px;
+background: white;
+z-index: 34;
+}
+
+.header .search{
+float: right;
+width: 19%;
+display: flex;
+justify-content: space-between;
+}
+
+.header h5 a{
+  margin-left: 40px;
+}
+
+.header .search input{
+  font-size: 20px;
+  width: 620px;
+  height: 45px;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.container{
+  height: 65px;
+  width: 100%;
+}
+
+h3{
+  font-style: oblique;
+  line-height: 70px;
+  font-size: 220%;
+  font-weight: 900;
+  margin-left: 70px;
+  font-family: "Ubuntu-Bold";
+}
+
+.Accesories_holder{
+  height: 100%;
+  width: 90%;
+  margin-top: 0px;
+  float: right;
+  line-height: 35px;
+}
+
+.Accesories_holder h4{
+  font-size: 160%;
+  line-height: 60px;
+}
+
+#Accesories{
+  width: 87%;
+  float: right;
+  margin-right: 0px;
+  //height: 100em;
+  margin-top: -25.7em;
+  background-color: rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 3px 0px;
+  border-radius: 0.5%;
+}
+
+#Wi-fis_Mi-fis>img, #Phones>img,
+#Servers>img, #Phones>img,
+#Laptops>img, #Laptops>img,
+#TVs>img, #Wristbands>img,
+#Tablets>img, #Gameconsole>img,
+#Airpod>img, #Chargers>img{
+  width: 85%;
+  height: 200px;
+  line-height: 400px;
+  margin: 30px;
+}
+
+#Wi-fis_Mi-fis>img:hover, #Phones>img:hover,
+#Servers>img:hover, #Phones>img:hover,
+#Laptops>img:hover, #Laptops>img:hover,
+#TVs>img:hover, #Wristbands>img:hover,
+#Tablets>img:hover, #Gameconsole>img:hover,
+#Airpod>img:hover, #Chargers>img:hover{
+box-shadow: 0px 0px 3px 2px rgba(55, 130, 170, 0.6);
+}
+
+#Wi-fis_Mi-fis{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+  grid-gap: 9em;
+  padding: 40px;
+}
+
+#Phones>img,
+#Servers>img, #Phones>img,
+#Laptops>img, #Laptops>img,
+#TVs>img, #Wristbands>img,
+#Tablets>img, #Gameconsole>img,
+#Airpod>img, #Chargers>img{
+  display: none;
+}
+
+#cart{
+  float: right;
+  margin-top: -47px;
+  margin-right: 47px;
+  width: 30px;
+}
+
+.Header{
+  border-bottom: solid thin black;
+  //background-color: rgba(90, 60, 90, 0.1);
+  width: 100%;
+}
+
+@media only screen and (max-width: 667px){
+  .Header,h4,.accessories_list{
+    display: none;
+  }
+
+  .header{
+    border-bottom: none;
+    background-color: none;
+  }
+
+  #Accesories{
+    margin: 0px;
+    float: none;
+    padding: 0px;
+    border-color: black;
+  }
+
+  .container{
+    font-size: 100%;
+  }
+}
